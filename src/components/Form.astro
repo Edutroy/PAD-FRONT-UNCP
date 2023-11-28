@@ -1,0 +1,160 @@
+<div class="flex flex-col items-center bg-gray-400">
+  <form method="POST" class="py-8">
+    <div class="grid grid-cols-2 gap-4">
+      <div class="mb-2">
+        <label class="text-gray-700">Número de Proceso:</label>
+      </div>
+      <div class="mb-2">
+        <input
+          name="numero_proceso"
+          class="border border-gray-300 rounded-md py-2 px-3 text-gray-700"
+        />
+      </div>
+
+      <div class="mb-2">
+        <label class="text-gray-700">Estado:</label>
+      </div>
+      <div class="mb-2">
+        <input
+          type="text"
+          name="estado"
+          class="border border-gray-300 rounded-md py-2 px-3 text-gray-700"
+        />
+      </div>
+
+      <div class="mb-2">
+        <label class="text-gray-700">Tipo de Falta:</label>
+      </div>
+      <div class="mb-2">
+        <select
+          name="amonestacion_id"
+          id="amonestacion_id"
+          class="border border-gray-300 rounded-md py-2 px-3 text-gray-700"
+        >
+          <option>{"leve"}</option>
+          <option>{"grave"}</option>
+          <option>{"muy grave"}</option>
+        </select>
+      </div>
+
+      <div class="mb-2">
+        <label class="text-gray-700">Amonestacion:</label>
+      </div>
+      <div class="mb-2">
+        <select
+          name="amonestacion_id"
+          id="amonestacion_id"
+          class="border border-gray-300 rounded-md py-2 px-3 text-gray-700"
+        >
+          <option>{"amonestacion verbal"}</option>
+          <option>{"amonestacion escrita"}</option>
+          <option>{"suspension"}</option>
+          <option>{"destitucion"}</option>
+          <option>{"Inhabilitacion"}</option>
+        </select>
+      </div>
+
+      <div class="mb-2">
+        <label class="text-gray-700">Secretario Técnico:</label>
+      </div>
+      <div class="mb-2">
+        <input
+          name="secretario_tecnico_id"
+          class="border border-gray-300 rounded-md py-2 px-3 text-gray-700"
+        />
+      </div>
+
+      <div class="mb-2">
+        <label class="text-gray-700">Fase del Proceso:</label>
+      </div>
+      <div class="mb-2">
+        <input
+          name="proceso_fase_id"
+          class="border border-gray-300 rounded-md py-2 px-3 text-gray-700"
+        />
+      </div>
+
+      <div class="mb-2">
+        <label class="text-gray-700">Demandado:</label>
+      </div>
+      <div class="mb-2">
+        <input
+          name="demandado_id"
+          class="border border-gray-300 rounded-md py-2 px-3 text-gray-700"
+        />
+      </div>
+
+      <div class="mb-2">
+        <label class="text-gray-700">Demandante:</label>
+      </div>
+      <div class="mb-2">
+        <input
+          name="demandante_id"
+          class="border border-gray-300 rounded-md py-2 px-3 text-gray-700"
+        />
+      </div>
+
+      <div class="mb-2">
+        <label class="text-gray-700">Instructor:</label>
+      </div>
+      <div class="mb-2">
+        <input
+          name="instructor_id"
+          class="border border-gray-300 rounded-md py-2 px-3 text-gray-700"
+        />
+      </div>
+
+      <div class="mb-2">
+        <label class="text-gray-700">Sancionador:</label>
+      </div>
+      <div class="mb-2">
+        <input
+          name="sancionador_id"
+          class="border border-gray-300 rounded-md py-2 px-3 text-gray-700"
+        />
+      </div>
+
+      <div class="mb-2">
+        <label class="text-gray-700">Oficializador:</label>
+      </div>
+      <div class="mb-2">
+        <input
+          name="oficializador_id"
+          class="border border-gray-300 rounded-md py-2 px-3 text-gray-700"
+        />
+      </div>
+
+      <div class="mb-2">
+        <label class="text-gray-700">Instancia:</label>
+      </div>
+      <div class="mb-2">
+        <input
+          type="text"
+          name="instancia"
+          class="border border-gray-300 rounded-md py-2 px-3 text-gray-700"
+        />
+      </div>
+
+      <div class="mb-2">
+        <input
+          type="file"
+          name="files"
+          class="border border-gray-300 rounded-md py-2 px-3 text-gray-700"
+        />
+      </div>
+    </div>
+
+    <button
+      type="submit"
+      class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+    >
+      Enviar
+    </button>
+    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+      Actualizar
+    </button>
+    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+      Eliminar
+    </button>
+  </form>
+</div>
